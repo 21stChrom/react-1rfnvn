@@ -1,7 +1,7 @@
 import React, { useState } from
 'react';
 import Tesseract from
-'tesseract.js';
+'tesseract.j';
 import QRCode from
 'qrcode.react';
 function App() {
