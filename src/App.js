@@ -16,7 +16,7 @@ FileReader();
 reader.readAsDataURL(file);
 reader.onload = () => {
 setImageUrl(reader.result);
-const handleTranscribe = async
+const handleTranscribe =
 () => {
 const { data: {text }} = await
 Tesseract.recognize(imageUrl,
@@ -50,9 +50,14 @@ h2><p>{transcription}</p>
 <QRCode
 value={transcription} />
  
-);
 
- </div>
 
- export default funtion  App();
+
+
+ export default App();
+
+
 </div>
+)}
+</div>
+)}}}
